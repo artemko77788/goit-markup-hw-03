@@ -43,6 +43,9 @@ ul {
 }
 
 /* header */
+.header-underline {
+  border-bottom: 1px solid #f5f4fa;
+}
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -51,8 +54,6 @@ ul {
   line-height: 1.2;
   color: var(--primary-text-color);
   text-decoration: none;
-  margin-top: 24px;
-  margin-bottom: 25px;
   margin-right: 94px;
 }
 
@@ -66,6 +67,7 @@ ul {
 }
 .main-nav {
   display: flex;
+  align-items: center;
 }
 .main-nav-list {
   display: flex;
@@ -75,7 +77,6 @@ ul {
 }
 .all-main-item {
   display: flex;
-  border-bottom: 1px solid #f5f4fa;
 }
 
 .main-nav .item {
@@ -84,6 +85,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding: 32px 0;
+  display: inline-block;
 }
 .main-nav .item:hover,
 .main-nav .item:focus {
@@ -96,10 +99,6 @@ ul {
 .main-nav-item:not(:last-child) {
   margin-right: 50px;
 }
-.main-nav-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
 
 .connect-header .item {
   color: var(--secondery-text-color);
@@ -107,6 +106,8 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: inline-block;
+  padding: 32px 0;
 }
 
 .connect-header .item:hover,
@@ -119,11 +120,6 @@ ul {
 
 .connect-header-list:not(:last-child) {
   margin-right: 50px;
-}
-
-.connect-header-list {
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 /* hero */
@@ -143,6 +139,9 @@ ul {
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button {
   font-weight: 700;
@@ -165,6 +164,10 @@ ul {
 
 /* our features */
 
+.our-specials{
+  padding-bottom: 0;
+}
+
 .our-features .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -182,7 +185,6 @@ ul {
 
 .our-features {
   display: flex;
-  margin-bottom: 87px;
 }
 .our-features-description:not(:last-child) {
   margin-right: 30px;
@@ -308,7 +310,6 @@ ul {
   display: block;
 }
 
-
 .portfolio-list .description {
   width: 370px;
   background: var(--white-color);
@@ -361,7 +362,6 @@ ul {
 
 .main-footer {
   background-color: #2f303a;
-  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
 }

@@ -22,7 +22,7 @@
   <body>
     <!-- Шапка страницы -->
 
-    <header>
+    <header class="header-underline">
       <div class="container all-main-item">
         <nav class="main-nav">
           <a href="./index.html" lang="en" class="logo"
@@ -31,10 +31,10 @@
 
           <ul class="list main-nav-list">
             <li class="main-nav-item">
-              <a href="./index.html" class="item">Студия</a>
+              <a href="./index.html" class="item current">Студия</a>
             </li>
             <li class="main-nav-item">
-              <a href="./portfolio.html" class="item current">Портфолио</a>
+              <a href="./portfolio.html" class="item">Портфолио</a>
             </li>
             <li class="main-nav-item"><a href="" class="item">Контакты</a></li>
           </ul>
@@ -55,8 +55,9 @@
 
     <main>
       <!-- Portfolio buttons -->
-      <div class="container">
-        <section class="section">
+
+      <section class="section">
+        <div class="container">
           <ul class="list portfolio-btn">
             <li class="portfolio-btn-item">
               <button type="button" class="button">Все</button>
@@ -210,32 +211,30 @@
               </a>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <div class="main-footer">
-        <div class="container">
-          <a href="./index.html" lang="en" class="logo"
-            ><span class="text">Web</span>Studio
-          </a>
+    <footer class="main-footer">
+      <div class="container">
+        <a href="./index.html" lang="en" class="logo"
+          ><span class="text">Web</span>Studio
+        </a>
 
-          <address class="address">
-            <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+        <address class="address">
+          <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
 
-            <ul class="list contact-footer">
-              <li class="contact-footer-list">
-                <a href="mailto:info@devstudio.com" class="item"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="contact-footer-list">
-                <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
+          <ul class="list contact-footer">
+            <li class="contact-footer-list">
+              <a href="mailto:info@devstudio.com" class="item"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-footer-list">
+              <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
